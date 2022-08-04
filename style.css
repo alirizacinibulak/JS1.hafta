@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --black: #1c2a39 ;
+    --gray: #5c6a79;
+    --purple: #4c3db2;
+}
+
+.navbar{
+    height: 120px;
+    width: 80%;
+    padding: 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+}
+
+.menu, .menu_icons{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: var(--gray);
+    cursor: pointer;
+    padding: 9px;
+}
+
+
+.menu_icons{
+    margin-left: 150px;
+}
+
+
+.menu{
+    margin-left: 80px;
+}
+
+
+.menu .active{
+    color: var(--black);
+    font-weight: bold;
+}
+
+.menu li, .menu_icons li{
+    margin: 0px 20px;    
+}
+
+.slider{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map{
+    margin-left: 145px;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
